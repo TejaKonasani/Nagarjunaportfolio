@@ -1,0 +1,2 @@
+import {About,Contact,DocumentChecklist,Footer,Hero,Introduction,InteriorGallery,Location,Navbar,PermissionExplorer,Process,PropertySection,ScrollProgress,ServiceFinder,Services,StickyContact,TaxEstimator} from '@/components/Main';
+export default function Page(){return <><ScrollProgress/><Navbar/><main><Hero/><Introduction/><Services/><ServiceFinder/><PermissionExplorer/><TaxEstimator/><PropertySection/><InteriorGallery/><About/><Process/><DocumentChecklist/><Contact/><Location/></main><Footer/><StickyContact/></>}
