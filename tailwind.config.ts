@@ -1,0 +1,1 @@
+import type { Config } from 'tailwindcss'; export default {content:['./src/**/*.{ts,tsx}'],theme:{extend:{colors:{ink:'#0B0B0C',charcoal:'#111113',ivory:'#F5F1E8',gold:'#C9A96A',muted:'#aaa69d'},fontFamily:{serif:['var(--font-serif)','Georgia','serif'],sans:['var(--font-sans)','Arial','sans-serif']}}},plugins:[]} satisfies Config;
